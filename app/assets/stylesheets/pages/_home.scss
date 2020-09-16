@@ -9,28 +9,40 @@ h3 {
   font-size: 30px;
 }
 
+hr {
+  color: $my-green;
+  width:30%;
+  margin:30px auto;
+}
+
 .main-title {
   width: 30%;
 }
 
 .my-description {
   width: 80%;
+  text-align: right;
 }
 
 .green-container {
   background-color: $my-green;
-  padding: 30px 30px 30px 30px;
+  padding: 150px 30px 30px 30px;
   position: relative;
   height: 80vh;
-  top: 222px;
+  top: 186px;
   left: 60px;
   height: 80vh;
   z-index: -1;
 }
 
+.green-container h2 {
+  text-align: right;
+}
+
 .top-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 
   position: absolute;
 }
@@ -38,9 +50,9 @@ h3 {
 .cards {
   display: flex;
   width: 100%;
-  height: 50vh;
   justify-content: center;
   align-text: center;
+  border-radius: 20px;
 }
 
 .cards h3 {
@@ -48,7 +60,45 @@ h3 {
   font-size: 20px;
 }
 
+.cards p {
+  color: grey;
+  text-align: center;
+  font-size: 15px;
+}
+
+.cards li {
+  color: grey;
+  list-style: none;
+  text-align: center;
+}
+
+.cards ul {
+  padding-inline-start: 0px;
+
+}
+
 .card {
   align-items: center;
   border: none;
+  padding: 30px 25px 10px 25px;
+}
+
+.icon {
+  object-fit: cover;
+  height: 40px;
+}
+
+.card.trainer, .card.frontend {
+  border-left: 2px solid $my-orange;
+}
+
+.headshot img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.title {
+  position: relative;
+  top: 187px;
+  left: 300px;
 }
