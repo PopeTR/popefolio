@@ -1,0 +1,61 @@
+.footer {
+  background-color: $my-green;
+  width: 16vw;
+  margin: 40px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  border-radius: 40px;
+
+}
+
+.footer > header {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+
+.footer > div {
+    height: 0;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: 240ms background-color linear;
+    font-size: 1.2em;
+    cursor: default;
+}
+
+.footer:hover > div {
+  background-color: $my-green;
+  width: 16vw;
+  opacity: 1;
+  padding: 22px 50px 22px 50px;
+  animation: 240ms item-fade-in linear forwards;
+  animation-delay: 120ms;
+  transition: 120ms background-color linear;
+  display: flex;
+}
+
+header {
+  margin: 10px 10px 10px 58px;
+  text-align: center;
+}
+
+#github {
+  margin-left: 20px;
+}
+
+#email {
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.fas.fa-envelope-open-text {
+  font-size: 30px;
+
+}
+
+i {
+  font-size: 20px;
+}

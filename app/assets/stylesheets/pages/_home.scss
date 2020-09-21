@@ -11,6 +11,13 @@ h3 {
 
 a {
   color: white;
+  transition: background 0.3s ease;
+}
+
+.project-list a:hover {
+  color: transparent;
+  -webkit-text-stroke: 2px white;
+  text-decoration: none;
 }
 
 .cards hr {
@@ -23,18 +30,29 @@ a {
   width: 30%;
 }
 
-.my-description {
-  width: 80%;
-  text-align: right;
+.introduction {
+  display: flex;
+  justify-content: flex-end;
 }
+
+.my-description {
+  width: 60%;
+  text-align: right;
+  line-height: 1.8;
+}
+
+.my-description h2 {
+  margin-bottom: 20px;
+}
+
 
 .green-container {
   background-color: $my-green;
   padding: 150px 30px 30px 30px;
   position: relative;
   height: 80vh;
-  top: 186px;
-  left: 60px;
+  top: 227px;
+  left: 38px;
   height: 80vh;
   z-index: -1;
 }
@@ -54,6 +72,7 @@ a {
 .cards {
   display: flex;
   width: 100%;
+  margin-top: 40px;
   justify-content: center;
   align-text: center;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
@@ -100,7 +119,7 @@ a {
 }
 
 .headshot img {
-  width: 200px;
+  width: 300px;
   border-radius: 50%;
 }
 
@@ -166,4 +185,14 @@ a {
   position: relative;
   top: -142px;
   left: -253px;
+}
+
+.intro-cards {
+  position: relative;
+  top: -318px;
+}
+
+.container-projects {
+  position: relative;
+  top: -283px;
 }
