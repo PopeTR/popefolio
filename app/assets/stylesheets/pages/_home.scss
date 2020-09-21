@@ -1,4 +1,5 @@
 // Specific CSS for your home-page
+
 h1 {
   font-weight: 600;
   font-size: 120px;
@@ -76,6 +77,8 @@ a {
   justify-content: center;
   align-text: center;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-bottom-left-radius: 154px;
+  background-color: white;
 }
 
 .cards h3 {
@@ -106,6 +109,7 @@ a {
 .card {
   align-items: center;
   border: none;
+  background-color: transparent;
   padding: 30px 25px 10px 25px;
 }
 
@@ -195,4 +199,25 @@ a {
 .container-projects {
   position: relative;
   top: -283px;
+}
+
+.copyright {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.closing-logo {
+  width: 100%;
+  margin: auto;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.closing-logo img {
+  border-radius: 23px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }

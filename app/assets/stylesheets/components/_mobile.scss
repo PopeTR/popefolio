@@ -1,0 +1,16 @@
+@media (max-width: 520px){
+  .top-container {
+    display: block;
+    align-items: left;
+    justify-content: left;
+  }
+
+  .main-title {
+    width: 100%;
+  }
+
+ .intro-cards {
+  position: revert;
+ }
+
+}
