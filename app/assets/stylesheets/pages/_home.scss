@@ -40,6 +40,7 @@ a {
   width: 60%;
   text-align: right;
   line-height: 1.8;
+  margin-top: 40px;
 }
 
 .my-description h2 {
@@ -132,7 +133,7 @@ a {
 }
 
 .headshot img {
-  width: 300px;
+  width: 18vw;
   border-radius: 50%;
 }
 
@@ -154,7 +155,6 @@ a {
 
 .projects {
   display: flex;
-  padding-top: 50px;
 }
 
 .project-list {
@@ -218,7 +218,7 @@ a {
 .container-projects {
   position: relative;
   top: -283px;
-  margin-bottom: -280px;
+  margin-bottom: -230px;
 }
 
 .copyright {
