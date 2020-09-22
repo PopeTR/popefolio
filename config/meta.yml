@@ -1,0 +1,5 @@
+meta_product_name: "Tom's Popefolio"
+meta_title: "Tom Pope's portfolio showcasing projects and skills"
+meta_description: "Designer, Developer & Tech Educator – I’m passionate about using technology to make this world a healthier, happier, more interesting place."
+meta_image: "profile-meta.png" # should exist in `app/assets/images/`
+# twitter_account: "@product_twitter_account"   # required for Twitter Cards
