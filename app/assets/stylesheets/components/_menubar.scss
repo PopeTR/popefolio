@@ -7,6 +7,10 @@
 
 }
 
+.footer.col-lg-9 {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
 .footer > header {
   font-size: 16px;
   font-weight: lighter;
@@ -28,13 +32,13 @@
 
 .footer:hover > div {
   background-color: $my-green;
-  width: 10vw;
-  height: 150px;
+  width: 11vw;
+  height: 10vh;
   opacity: 1;
   padding: 22px 50px 22px 50px;
-  animation: 240ms item-fade-in linear forwards;
+  animation: 500ms item-fade-in linear forwards;
   animation-delay: 120ms;
-  transition: 120ms background-color linear;
+  transition: 500ms background-color linear;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -44,7 +48,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  animation: 500ms item-fade-in linear forwards;
+  transition: 500ms background-color linear;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 
+}
+
+.footer img {
+  padding: 10px;
+  height: 10vh;
+  width: 11vw;
+  object-fit: cover;
 }
 
 .footer:hover img{

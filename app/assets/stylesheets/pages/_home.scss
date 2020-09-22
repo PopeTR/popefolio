@@ -58,6 +58,14 @@ a {
   z-index: -1;
 }
 
+.container-pink {
+  background-color: #767c77;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  margin: auto;
+  height: 65vh;
+}
+
 .green-container h2 {
   text-align: right;
 }
@@ -84,6 +92,7 @@ a {
 .cards h3 {
   color: grey;
   font-size: 20px;
+  text-align: center;
 }
 
 .cards p {
@@ -125,6 +134,16 @@ a {
 .headshot img {
   width: 300px;
   border-radius: 50%;
+}
+
+.headshot {
+  z-index: 1;
+}
+
+#stensil {
+  position: absolute;
+  left: 584px;
+  z-index: 0;
 }
 
 .title {
@@ -199,6 +218,7 @@ a {
 .container-projects {
   position: relative;
   top: -283px;
+  margin-bottom: -280px;
 }
 
 .copyright {

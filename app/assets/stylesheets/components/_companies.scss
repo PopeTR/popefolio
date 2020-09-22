@@ -1,6 +1,10 @@
 .companies-container {
   display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-top: 40px;
 }
+
 
 .logo img{
   width: 60%;
@@ -16,13 +20,21 @@
   align-items: center;
   background-color: white;
   color: $my-green;
-
   font-size: 24px;
   font-weight: 800;
   border-radius: 5px;
+  border-top-left-radius: 40px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   background-size: cover;
   background-position: center;
+}
+
+#macquarie {
+  border-bottom-right-radius: 40px;
+}
+
+#philips {
+  border-top-right-radius: 40px;
 }
 
 .header-companies h2 {
@@ -64,8 +76,8 @@
 .line hr {
   width:30% !important;
   margin:30px auto !important;
-  color: $my-green !important;
-  border: 1px solid #767c77;
+  color: white !important;
+  border: 1px solid white;
 }
 
 // Smallest device
