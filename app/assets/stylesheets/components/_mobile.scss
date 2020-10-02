@@ -14,3 +14,24 @@
  }
 
 }
+
+@media (max-width: 700px){
+  .project-details h1{
+    font-size: 60px;
+  }
+  .project-triangle {
+    display: none;
+  }
+
+  .header-companies h2{
+    font-size: small;
+  }
+
+  #stensil {
+    display: none;
+  }
+
+  .headshot img {
+    display: none;
+  }
+}
