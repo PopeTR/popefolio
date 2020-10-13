@@ -84,11 +84,10 @@ a {
 }
 
 .cards {
-  display: flex;
-  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 16px;
   margin-top: 40px;
-  justify-content: center;
-  align-text: center;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-bottom-left-radius: 154px;
   background-color: white;
@@ -120,8 +119,10 @@ a {
 
 }
 
-.card {
+.card-cv {
+  display: flex;
   align-items: center;
+  flex-direction: column;
   border: none;
   background-color: transparent;
   padding: 30px 25px 10px 25px;

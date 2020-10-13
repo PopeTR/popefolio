@@ -1,5 +1,5 @@
 <div class="navbar"></div>
-<div class="container col-lg-9">
+<div class="profile-container col-lg-9">
   <div class="top-container">
     <div class="main-title">
       <h1>hey! i'm tom.</h1>
@@ -16,12 +16,12 @@
 
     </div>
 
-    <div class="green-container col-sm-12 col-11 offset-1">
+    <div class="green-container col-sm-12 col-lg-11 offset-md-1">
     </div>
 
   <div class="intro-cards">
     <div class="introduction">
-      <div class="my-description">
+      <div class="my-description" id="description-me">
         <h2>designer, developer & trainer</h2>
 
         <p>I’m passionate about using technology to make this world a healthier, happier, more interesting place.</p>
@@ -31,9 +31,11 @@
       </div>
     </div>
 
-    <%= render 'components/cards' %>
+    
 
   </div>
+
+  <%= render 'components/cards' %>
 
   <div class="container-projects">
     <div class="projects">

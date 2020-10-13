@@ -1,21 +1,50 @@
-@media (max-width: 520px){
-  .top-container {
+@media (max-width: 575px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-container.green-container {
     display: block;
     align-items: left;
     justify-content: left;
+  }
+
+  .green-container.col-sm-12.col-lg-11.offset-md-1 {
+    left: 0px;
   }
 
   .main-title {
     width: 100%;
   }
 
- .intro-cards {
-  position: revert;
+  .profile-container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+ .my-description p, .my-description h2  {
+   text-align: left;
  }
 
+#description-me {
+  width: 100%;
 }
 
-@media (max-width: 700px){
+ .my-description h2 {
+   font-size: 25px;
+ }
+
+.introduction {
+   display: block;
+   width: 100%;
+ }
+}
+
+
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {
+
   .project-details h1{
     font-size: 60px;
   }
