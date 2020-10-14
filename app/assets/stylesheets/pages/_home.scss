@@ -32,7 +32,15 @@ a {
   width: 30%;
 }
 
+.profile-container {
+  margin: auto;
+}
 
+
+.profile-container.col-lg-9 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
 
 
 .introduction {
@@ -40,27 +48,31 @@ a {
   justify-content: flex-end;
 }
 
+.intro-cards {
+  margin-top: 100px;
+}
+
 .my-description {
-  width: 60%;
+  width: 56%;
   text-align: right;
   line-height: 1.8;
-  margin-top: 40px;
 }
 
 .my-description h2 {
   margin-bottom: 20px;
 }
 
-
-.green-container {
-  background-color: $my-green;
-  padding: 150px 30px 30px 30px;
-  position: relative;
-  height: 80vh;
-  top: 227px;
-  left: 38px;
-  height: 650px;
+.triangle-container{
+  width: 100%;
+  height: 40vh;
+  margin: auto;
+  text-align:center;
   z-index: -1;
+}
+
+  .triangle{
+    fill: $my-green;
+    stroke: $my-green;
 }
 
 .container-pink {
@@ -68,7 +80,7 @@ a {
   border-top-left-radius: 100px;
   border-top-right-radius: 100px;
   margin: auto;
-  height: 75vh;
+  height: 65vh;
 }
 
 .green-container h2 {
@@ -80,6 +92,7 @@ a {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  padding: 15px;
   position: absolute;
 }
 
@@ -90,24 +103,24 @@ a {
   margin-top: 40px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-bottom-left-radius: 154px;
-  background-color: white;
+  background-color: $my-green;
 }
 
 .cards h3 {
-  color: grey;
+  color: white;
   font-size: 20px;
   text-align: center;
 }
 
 .cards p {
-  color: grey;
+  color: white;
   text-align: center;
   font-size: 14px;
   font-weight: 200;
 }
 
 .cards li {
-  color: grey;
+  color: white;
   list-style: none;
   text-align: center;
   font-size: 14px;
@@ -169,10 +182,16 @@ a {
 
 .projects {
   display: flex;
+  margin-top: 20px;
+  justify-content: space-evenly;
 }
 
 .project-list {
   padding-top: 50px;
+}
+
+.project-list h1 {
+  font-size: 100px;
 }
 
 .project-flovelle, .project-vanlords, .project-cocktail {
@@ -189,50 +208,39 @@ a {
 .triangle-down {
   width: 0;
   height: 0;
-  border-left: 180px solid transparent;
-  border-right: 180px solid transparent;
-  border-top: 300px solid #767c77;
-    }
+  border-left: 126px solid transparent;
+  border-right: 126px solid transparent;
+  border-top: 220px solid #767c77;
+  }
 
 .triangle-down h2 {
   text-align: center;
-  top: -321px;
+  top: -246px;
   left: -94px;
   position: relative;
   width: 200px;
   margin: 0px;
-  font-size: 29px;
+  font-size: 18px;
 }
 
 #line-one {
-  transform: rotate(59deg);
-  width: 310px;
+  transform: rotate(60deg);
+  width: 270px;
   border: 1px solid white;
   color: white;
   position: relative;
-  top: -123px;
-  left: -185px;
+  top: -91px;
+  left: -159px;
 }
 
 #line-two {
-  transform: rotate(59deg);
-  width: 310px;
+  transform: rotate(60deg);
+  width: 270px;
   border: 1px solid white;
   color: white;
   position: relative;
-  top: -142px;
-  left: -253px;
-}
-
-.intro-cards {
-  position: relative;
-  top: -318px;
-}
-
-.container-projects {
-  position: relative;
-  top: -283px;
-  margin-bottom: -230px;
+  top: -108px;
+  left: -204px;
 }
 
 .copyright {
