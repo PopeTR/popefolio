@@ -1,6 +1,11 @@
 @media (max-width: 575px) {
   .cards {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
+    margin: 10px;
+  }
+
+  .project-list h1 {
+    font-size: 60px !important;
   }
 
   .profile-container.green-container {
@@ -17,9 +22,17 @@
     width: 100%;
   }
 
+  .main-title h1 {
+    font-size: 55px;
+  }
+
   .profile-container {
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .triangle-container {
+    height: 35vh !important;
   }
 
  .my-description p, .my-description h2  {
@@ -28,6 +41,7 @@
 
 #description-me {
   width: 100%;
+  padding: 10px;
 }
 
  .my-description h2 {
@@ -38,6 +52,14 @@
    display: block;
    width: 100%;
  }
+
+ .headshot img {
+   width: 37vw !important;
+ }
+
+ .intro-cards {
+  margin-top: 0px !important;
+}
 }
 
 
@@ -60,7 +82,4 @@
     display: none;
   }
 
-  .headshot img {
-    display: none;
-  }
 }
