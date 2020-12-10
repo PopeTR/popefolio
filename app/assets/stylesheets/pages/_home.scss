@@ -1,4 +1,7 @@
 // Specific CSS for your home-page
+.container-portfolio {
+  padding: 0 2vh 0 2vh;
+}
 
 h1 {
   font-weight: 600;
@@ -79,8 +82,8 @@ a {
   background-color: #767c77;
   border-top-left-radius: 100px;
   border-top-right-radius: 100px;
+  padding-bottom: 10vh;
   margin: auto;
-  height: 65vh;
 }
 
 .green-container h2 {
@@ -169,7 +172,23 @@ a {
   position: absolute;
   left: 65%;
   z-index: 0;
+  // animation: swing 2s infinite ease-in-out;
+}
+
+#stensil:hover  {
   animation: swing 2s infinite ease-in-out;
+}
+
+#emoji-wave {
+  font-size: 7vw;
+  height: 4vh;
+  margin-top: 3vh;
+  animation: swing 0.5s ease-in-out;
+  animation-iteration-count: 2;
+}
+
+.main-title:hover #emoji-wave{
+  animation: swing 0.5s infinite ease-in-out;
 }
 
 
@@ -211,7 +230,23 @@ a {
   border-left: 126px solid transparent;
   border-right: 126px solid transparent;
   border-top: 220px solid #767c77;
-  }
+  transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-10px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+
 
 .triangle-down h2 {
   text-align: center;

@@ -18,13 +18,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
-  color: $my-green;
+  color: white;
   font-size: 24px;
   font-weight: 800;
   border-radius: 5px;
   border-top-left-radius: 40px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
   background-size: cover;
   background-position: center;
 }
@@ -40,8 +38,8 @@
 .header-companies h2 {
   text-align: right;
   font-weight: 600;
-  padding-right: 15px;
-  font-size: 20px;
+  padding-right: 1vw;
+  font-size: 2vw;
 }
 
 .card-list {
@@ -53,7 +51,7 @@
 .card-category {
   background-size: cover;
   background-position: center;
-  height: 86px;
+  height: 8vh;
   display: flex;
   justify-content: center;
   align-items: center;

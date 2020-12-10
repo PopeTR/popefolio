@@ -23,7 +23,11 @@
   }
 
   .main-title h1 {
-    font-size: 55px;
+    font-size: 6vh;
+  }
+
+  .top-container {
+    align-items: flex-start !important;
   }
 
   .profile-container {
@@ -54,12 +58,17 @@
  }
 
  .headshot img {
-   width: 37vw !important;
+   width: 30vw !important;
  }
 
  .intro-cards {
   margin-top: 0px !important;
-}
+  }
+
+  .logo img {
+    width: 90% !important;
+  }
+
 }
 
 
@@ -75,7 +84,7 @@
   }
 
   .header-companies h2{
-    font-size: small;
+    font-size: 15px !important;
   }
 
   #stensil {

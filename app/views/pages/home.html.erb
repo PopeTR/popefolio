@@ -1,109 +1,122 @@
-<div class="navbar"></div>
-<div class="profile-container col-lg-9">
-  <div class="top-container">
-    <div class="main-title">
-      <h1>hey! im tom.</h1>
-    </div>
-    <div class="headshot" id="stensil">
-      <%= image_tag "circle.png" %>
-    </div>
-    <div class="headshot">
-      <%= image_tag "TomPope.jpg"%>
-    </div>
-  </div>
-
-    <div class="triangle-container">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-          <polygon points="0,0 50,0 40,10 55,30 0,75" class="triangle" />
-        </svg>
-    </div>
-
-  <div class="intro-cards">
-    <div class="introduction">
-      <div class="my-description" id="description-me">
-        <h2>designer, developer & trainer</h2>
-
-        <p>I’m passionate about using technology to make this world a healthier, happier, more interesting place.</p>
-
-          <p>Since beginning my journey in the crazy world of Tech 7 years ago, I have taught senior executives about the ‘magic’ of technology for companies across the world, built and rolled out new innovation frameworks for three major conglomerates and trained myself as a full stack web developer.</p>
-
+<%# <div class="navbar"></div> %>
+<div class="container-portfolio">
+  <div class="profile-container col-lg-9">
+    <div class="top-container">
+      <div class="main-title">
+        <h1>hey! im tom.</h1>
+        <h1 id='emoji-wave'>&#128075;<h1>
+      </div>
+      <div class="headshot" id="stensil">
+        <%= image_tag "circle.png" %>
+      </div>
+      <div class="headshot">
+        <%= image_tag "TomPope.jpg"%>
       </div>
     </div>
 
-    
+      <div class="triangle-container">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon points="0,0 50,0 40,10 55,30 0,75" class="triangle" />
+          </svg>
+      </div>
 
-  </div>
+    <div class="intro-cards">
+      <div class="introduction">
+        <div class="my-description" id="description-me">
+          <h2>designer, developer & trainer</h2>
 
-  <%= render 'components/cards' %>
+          <p>I’m passionate about using technology to make this world a healthier, happier, more interesting place.</p>
 
-  <div class="container-projects">
-    <div class="projects">
-      <div class="project-list">
-        <a href="https://www.flovelle.com" target="_blank">
-          <div class="project-flovelle">
+            <p>Since beginning my journey in the crazy world of Tech 7 years ago, I have taught senior executives about the ‘magic’ of technology for companies across the world, built and rolled out new innovation frameworks for three major conglomerates and trained myself as a full stack web developer.</p>
+
+        </div>
+      </div>
+
+      
+
+    </div>
+
+    <%= render 'components/cards' %>
+
+    <div class="container-projects">
+      <div class="projects">
+        <div class="project-list">
+          <a href="https://www.flovelle.com" target="_blank">
+            <div class="project-flovelle">
+                <i class="fas fa-chevron-right"></i>
+                <div class="project-details">
+                  <h1>Flovelle</h1>
+                  <div class="company-description">
+                    <p>A flower subscription service</p>
+                  </div>
+                </div>
+            </div>
+          </a>
+
+          <a href="https://vanlords.herokuapp.com" target="_blank">
+            <div class="project-vanlords">
               <i class="fas fa-chevron-right"></i>
               <div class="project-details">
-                <h1>Flovelle</h1>
-                <div class="company-description">
-                  <p>A flower subscription service</p>
-                </div>
+                <h1>Vanlords</h1>
+                <p>Campervan Rentals</p>
               </div>
-          </div>
-        </a>
-
-        <a href="https://vanlords.herokuapp.com" target="_blank">
-          <div class="project-vanlords">
-            <i class="fas fa-chevron-right"></i>
-            <div class="project-details">
-              <h1>Vanlords</h1>
-              <p>Campervan Rentals</p>
             </div>
-          </div>
-        </a>
+          </a>
 
-        <a href="https://cocktail-bonanza.herokuapp.com" target="_blank">
-          <div class="project-cocktail">
-            <i class="fas fa-chevron-right"></i>
-            <div class="project-details">
-              <h1>Tail</h1>
-              <p>Cocktail Search</p>
+          <a href="http://zukunftschreiben-kids-dev.herokuapp.com/" target="_blank">
+            <div class="project-cocktail">
+              <i class="fas fa-chevron-right"></i>
+              <div class="project-details">
+                <h1>Zuku</h1>
+                <p>Climate change stories for kids</p>
+              </div>
             </div>
-          </div>
-        </a>
-      </div>
+          </a>
 
-      <div class="project-triangle">
-        <div class="triangle-down">
-          <hr id="line-one">
-          <hr id="line-two">
-          <h2>recent projects.</h2>
+          <a href="http://pelle.live" target="_blank">
+            <div class="project-cocktail">
+              <i class="fas fa-chevron-right"></i>
+              <div class="project-details">
+                <h1>Pelle</h1>
+                <p>(WIP) Rubbish meetups and cleanups in Amsterdam</p>
+              </div>
+            </div>
+          </a>
         </div>
 
-        <div class="title two"></div>
+        <div class="project-triangle">
+          <div class="triangle-down">
+            <hr id="line-one">
+            <hr id="line-two">
+            <h2>recent projects.</h2>
+          </div>
+
+          <div class="title two"></div>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-<div class="container-pink col-lg-10">
+  <div class="container-pink col-lg-10">
 
 
-  <%=  render 'components/companies'%>
+    <%=  render 'components/companies'%>
 
-  <div class="line">
-    <hr>
+    <div class="line">
+      <hr>
+    </div>
+
+    <nav class="footer col-lg-9">
+      <header><%= image_tag "logo2.png", alt: "logo-navbar", width: 150 %></header>
+      <div id="github"><span><a href="https://github.com/PopeTR"><i class="fab fa-github"></i></a></span></div>
+      <div><span><a href="https://www.linkedin.com/in/thomas-pope-8b390077/"><i class="fab fa-linkedin"></i></a></span></div>
+      <div><span><a href="https://www.instagram.com/popetr/"><i class="fab fa-instagram-square"></i></a></span></div>
+      <div id="email"><span><a href="mailto:popetr90@gmail.com"><i class="far fa-envelope"></i></a></span></div>
+    </nav>
+
+    <div class="copyright">
+      <p>~ Designed and Built by Tom Pope ~</p>
+    </div>
+
   </div>
-
-  <nav class="footer col-lg-9">
-    <header><%= image_tag "logo2.png", alt: "logo-navbar", width: 150 %></header>
-    <div id="github"><span><a href="https://github.com/PopeTR"><i class="fab fa-github"></i></a></span></div>
-    <div><span><a href="https://www.linkedin.com/in/thomas-pope-8b390077/"><i class="fab fa-linkedin"></i></a></span></div>
-    <div><span><a href="https://www.instagram.com/popetr/"><i class="fab fa-instagram-square"></i></a></span></div>
-    <div id="email"><span><a href="mailto:popetr90@gmail.com"><i class="far fa-envelope"></i></a></span></div>
-  </nav>
-
-  <div class="copyright">
-    <p>~ Designed and Built by Tom Pope ~</p>
-  </div>
-
 </div>
